@@ -2,10 +2,8 @@
   "name": "crimebot",
   "version": "1.0.0",
   "description": "",
-  
-  },
-  "dependencies": {
-    "main": "bot",
+  "main": "index.js",
+  "start": "node bot.js"
   "dependencies": {
     "discord.js": "^11.4.2",
     "ffmpeg-binaries": "^4.0.0",
@@ -15,5 +13,12 @@
     "request": "^2.88.0",
     "youtube-id": "^1.0.0",
     "ytdl-core": "^0.28.3"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

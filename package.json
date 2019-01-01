@@ -1,7 +1,7 @@
 {
-  "name": "crimebot",
+  "name": "Test",
   "description": "Test",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -9,12 +9,5 @@
   "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
-    "ffmpeg-binaries": "^4.0.0",
-    "fs": "0.0.1-security",
-    "get": "^1.4.0",
-    "opusscript": "0.0.6",
-    "request": "^2.88.0",
-    "youtube-id": "^1.0.0",
-    "ytdl-core": "^0.28.3"
   }
 }

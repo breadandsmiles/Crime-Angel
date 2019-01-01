@@ -86,7 +86,7 @@ const commands = {
 	},
 	'help': (msg) => {
 		let tosend = ['```xl','CHỨC NĂNG VOICE CHÁT', tokens.prefix + 'join : "vào voice chát"',tokens.prefix + 'leave : "ra khỏi voice chát "',	tokens.prefix + 'add : "thêm link YouTube vào danh sách"', tokens.prefix + 'list : "hiển thị danh sách, tối đa 15 bài hát được hiển thị."', tokens.prefix + 'play : "chơi nhạc khi đã vào voice chát"', '', 'CÁC LỆNH KHI ĐANG PHÁT NHẠC:'.toUpperCase(), tokens.prefix + 'pause : "tạm dừng bài hát"',	tokens.prefix + 'resume : "tiếp tục bài hát"', tokens.prefix + 'skip : "bỏ qua bài hát"', tokens.prefix + 'time : "thời gian đang phát bài hát."',	'volume+(+++) : "tăng âm lượng 2%/+"',	'volume-(---) : "Giảm âm lượng 2%/-"',
-		'CÁC CHỨC LỆNH KHÁC', tokens.prefix + 'say : "bot nói"', tokens.prefix + 'lenny : "(˵ ͡° ͜ʖ ͡°˵)"',	'```'];
+		'CÁC CHỨC LỆNH KHÁC', tokens.prefix + 'say : "bot nói"', tokens.prefix + 'lenny : "(˵ ͡° ͜ʖ ͡°˵)"','```'];
 		msg.channel.sendMessage(tosend.join('\n'));
 	},
 	'reboot': (msg) => {

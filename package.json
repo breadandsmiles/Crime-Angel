@@ -9,7 +9,6 @@
   "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
-    "discord.js": "^11.4.2",
     "ffmpeg-binaries": "^4.0.0",
     "fs": "0.0.1-security",
     "get": "^1.4.0",

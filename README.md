@@ -1,4 +1,4 @@
-# OhGodMusicBot
+# Crime bot
 A v10 Discord.JS music bot in 100 lines or less
 
 ## Installation (Windows)

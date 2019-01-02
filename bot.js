@@ -128,6 +128,9 @@ client.on('message', msg => {
         } else {
             msg.reply('giáo sư chưa chọn người để cho ra đảo!');
         }
+	}if(msg.content.startsWith(tokens.prefix + "avatar")) {
+		let user = msg.mentions.users.first() || msg.author;
+		msg.channel.sendMessage(user.avatarURL)
 	}
 	
 });

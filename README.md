@@ -3,33 +3,33 @@ A v10 Discord.JS music bot in 100 lines or less
 
 ## Installation (Windows)
 
-This section is for running the bot locally on Windows. If you're on Mac it should be similar. I'll assume Linux users can figure it out.
+Phần này để chạy bot cục bộ trên Windows. Nếu bạn đang dùng Mac thì nó cũng tương tự. Tôi sẽ cho rằng người dùng Linux có thể tìm ra nó.
 
 ### Download Node.js
 
-Node.js is what will be used to run the bot.
-Download [Node.js 6.X from the website](https://nodejs.org/en/).
+Node.js là những gì sẽ được sử dụng để chạy bot.
+Tải xuống [Node.js 6.X từ trang web] (https://nodejs.org/en/).
 
 ### Install Node.js
 
-Open the Node.js Setup.
-In the options, make sure `Node.js runtime` `npm package manager` and `Add to PATH` are enabled. After that install Node.js.
+Mở Cài đặt Node.js.
+Trong các tùy chọn, đảm bảo `Node.js runtime`` npm manager manager` và` Add to PATH` được bật. Sau đó cài đặt Node.js.
 
 ### Install Windows-Build-Tools
 
-Open up a windows powershell and run `npm i -g windows-build-tools`. This will take a while as it will download and install both python 2.7 and c++ build tools, so you can run node-gyp builds.
+Mở một cửa sổ powershell và chạy `npm i -g windows-build-tools`. Điều này sẽ mất một lúc vì nó sẽ tải xuống và cài đặt cả hai công cụ xây dựng python 2.7 và c ++, vì vậy bạn có thể chạy các bản dựng nút-gyp.
 
 ### Download Git
 
-And install it. The website is http://git-scm.com and make sure you choose "for command prompt".
+Và cài đặt nó. Trang web này là http://git-scm.com và đảm bảo bạn chọn "cho dấu nhắc lệnh".
 
 ### Download FFMPEG
 
-Download FFMPEG from [this website](https://ffmpeg.zeranoe.com/builds/). Make sure to find the current **Static Build** for your OS Architecture (32bit/64bit).
+Tải xuống FFMPEG từ [trang web này] (https://ffmpeg.zeranoe.com/builds/). Đảm bảo tìm ** Bản dựng tĩnh ** hiện tại cho Kiến trúc hệ điều hành của bạn (32 bit / 64 bit).
 
 ### Install & Configure FFMPEG
 
-Extract the files to the root of your harddrive, and rename the folder to `ffmpeg`. 
+Trích xuất các tập tin vào thư mục gốc của ổ cứng của bạn và đổi tên thư mục thành `ffmpeg`. 
 
 **Then add FFMPEG to your Path variable:**
 

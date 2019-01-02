@@ -112,4 +112,4 @@ client.on('message', msg => {
     msg.channel.sendMessage(say);
   };
 });
-client.login(tokens.d_token);
+client.login(process.env.BOT_TOKEN);

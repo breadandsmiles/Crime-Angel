@@ -94,6 +94,13 @@ const commands = {
 
 client.on('ready', () => {
 	console.log('Tao online rồi');
+	client.user.setStatus('available')
+	client.user.setPresence({
+		game: {
+			name: 'Your Girlfriend',
+			type: "PLAYING"
+		}
+	})
 });
 
 client.on('message', msg => {

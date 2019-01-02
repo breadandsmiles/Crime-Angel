@@ -139,6 +139,10 @@ client.on('message', msg => {
 		let user = msg.mentions.users.first() || msg.author;
 		msg.channel.sendMessage(user.avatarURL)
 	}
+	if(msg.content.startsWith(tokens.prefix + "ping")) {
+		let tosend = ['```xl','PING đang lag sml:',`${client.ping} ms`,'```'];
+		msg.channel.sendMessage(tosend.join('\n'));
+	}
 	
 });
 client.login(process.env.BOT_TOKEN);

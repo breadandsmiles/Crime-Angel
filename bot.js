@@ -16,7 +16,7 @@ const commands = {
 		console.log(queue);
 		(function play(song) {
 			console.log(song);
-			if (song === undefined) return msg.channel.sendMessage('déll gáy nữa :((').then(() => {
+			if (song === undefined) return msg.channel.sendMessage('déll gáy nữa :khocloc: ').then(() => {
 				queue[msg.guild.id].playing = false;
 				msg.member.voiceChannel.leave();
 			});

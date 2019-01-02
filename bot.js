@@ -20,7 +20,7 @@ const commands = {
 				queue[msg.guild.id].playing = false;
 				msg.member.voiceChannel.leave();
 			});
-			msg.channel.sendMessage(`đang nghe: **${song.title}** theo danh sách của: **${song.requester}**`);
+			msg.channel.sendMessage(`đang gáy: **${song.title}** theo yêu cầu của: **${song.requester}**`);
 			dispatcher = msg.guild.voiceConnection.playStream(yt(song.url, { audioonly: true }), { passes : tokens.passes });
 			let collector = msg.channel.createCollector(m => m);
 			collector.on('message', m => {

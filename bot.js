@@ -111,5 +111,24 @@ client.on('message', msg => {
     msg.delete();
     msg.channel.sendMessage(say);
   };
+	if(msg.content.startsWith(tokens.prefix + "kick")) {
+		let user = msg.mentions.users.first();
+        if (user) {
+            let member = msg.guild.member(user);
+            if (member) {
+                member.kick('Optional reason that will display in the audit logs').then(() =>{
+                    msg.reply(`đã cho ${user.tag} ra đảo `);
+                }).catch(err =>{
+                    msg.reply('em không kick được nó');
+                    console.error(err);
+                });
+            } else {
+                msg.reply('thằng này tao không biết!');
+            }   
+        } else {
+            msg.reply('giáo sư chưa chọn người để cho ra đảo!');
+        }
+	}
+	
 });
 client.login(process.env.BOT_TOKEN);

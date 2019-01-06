@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const yt = require('ytdl-core');
 const tokens = require('./tokens.json');
+const search = require('yt-search')
 const client = new Discord.Client();
 
 let queue = {};
@@ -86,7 +87,7 @@ const commands = {
 	},
 	'help': (message) => {
 		let tosend = ['```xl','CHỨC NĂNG VOICE CHÁT', tokens.prefix + 'join : "vào voice chát"',tokens.prefix + 'leave : "ra khỏi voice chát "',	tokens.prefix + 'add : "thêm link YouTube vào danh sách"', tokens.prefix + 'list : "hiển thị danh sách, tối đa 15 bài hát được hiển thị."', tokens.prefix + 'play : "chơi nhạc khi đã vào voice chát"', '', 'CÁC LỆNH KHI ĐANG PHÁT NHẠC:'.toUpperCase(), tokens.prefix + 'pause : "tạm dừng bài hát"',	tokens.prefix + 'resume : "tiếp tục bài hát"', tokens.prefix + 'skip : "bỏ qua bài hát"', tokens.prefix + 'time : "thời gian đang phát bài hát."',	'volume+(+++) : "tăng âm lượng 2%/+"',	'volume-(---) : "Giảm âm lượng 2%/-"',
-		'CÁC CHỨC LỆNH KHÁC', tokens.prefix + 'say : "bot nói"', tokens.prefix + 'lenny : "(˵ ͡° ͜ʖ ͡°˵)"',	'```'];
+		'CÁC CHỨC LỆNH KHÁC', tokens.prefix + 'say : "bot nói"', tokens.prefix + 'lenny : "(˵ ͡° ͜ʖ ͡°˵)"',tokens.prefix + 'avatar:"xem avatar"',tokens.prefix + 'ping: "xem ping"',	'```'];
 		message.channel.send(tosend.join('\n'));
 	},
 	'reboot': (message) => {

@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const yt = require('ytdl-core');
 const tokens = require('./tokens.json');
-const search = require('yt-search')
 const client = new Discord.Client();
 
 let queue = {};

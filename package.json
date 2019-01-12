@@ -1,25 +1,29 @@
 {
-  "name": "crimebot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
-  "dependencies": {
-    "discord-welcome": "^1.5.0",
-    "discord.js": "^11.4.2",
-    "ffmpeg-binaries": "^4.0.0",
-    "fs": "0.0.1-security",
-    "get": "^1.4.0",
-    "has": "^1.0.3",
-    "opusscript": "0.0.6",
-    "request": "^2.88.0",
-    "youtube-id": "^1.0.0",
-    "ytdl-core": "^0.28.3"
-  },
-  "devDependencies": {},
+  "name": "crimedark",
+  "version": "1.2.6",
+  "description": "con bot cuoi cung!",
+  "main": "./src/bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node src/bot.js",
+    "test": "jest",
+    "watch": "jest --watch -o"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "kuff",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "node-opus": "^0.2.7",
+    "axios": "^0.18.0",
+    "bufferutil": "^4.0.1",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "^0.7.4",
+    "moment": "^2.23.0",
+    "valid-url": "^1.0.9",
+    "youtube-node": "^1.3.2",
+    "ytdl-core": "^0.29.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }

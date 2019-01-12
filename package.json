@@ -16,6 +16,7 @@
     "node-opus": "^0.2.7",
     "axios": "^0.18.0",
     "bufferutil": "^4.0.1",
+    "ffmpeg-binaries": "^4.0.0",
     "erlpack": "github:hammerandchisel/erlpack",
     "libsodium-wrappers": "^0.7.4",
     "moment": "^2.23.0",

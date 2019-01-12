@@ -1,6 +1,0 @@
-{
-    "d_token" : "process.env.BOT_TOKEN",
-	"adminID" : "528597257138733077",
-    "prefix" : "+",
-	"passes" : 1
-}

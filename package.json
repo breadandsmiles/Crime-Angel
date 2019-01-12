@@ -14,9 +14,9 @@
   "dependencies": {
     "discord.js": "^11.3.2",
     "node-opus": "^0.2.7",
-    "axios": "^0.18.0",
-    "bufferutil": "^4.0.1",
-    "erlpack": "github:hammerandchisel/erlpack",
+    "bufferutil": "^4.0.1",,
+    "axios": "^0.18.0"
+    "ffmpeg-binaries": "^4.0.0"
     "libsodium-wrappers": "^0.7.4",
     "moment": "^2.23.0",
     "valid-url": "^1.0.9",

@@ -1,7 +1,7 @@
 {
   "name": "crimedark",
-  "version": "1.2.6",
-  "description": "con bot cuoi cung!",
+  "version": "1.0.0",
+  "description": "",
   "main": "./src/bot.js",
   "scripts": {
     "start": "node src/bot.js",

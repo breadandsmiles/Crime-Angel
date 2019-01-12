@@ -95,15 +95,9 @@ const commands = {
 
 };
 
-client.on('ready', () => {
+cclient.on('ready', () => {
 	console.log('Tao online rồi');
-	client.user.setStatus('available')
-	client.user.setPresence({
-		game: {
-			name: 'Your Girlfriend',
-			type: "PLAYING"
-		}
-	})
+	client.user.setActivity(`Music | ${PREFIX}`, { type: "streaming", url: "https://www.twitch.tv/twitch" });
 });
 
 client.on('message', message => {

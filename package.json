@@ -1,0 +1,21 @@
+{
+   "name": "crimeanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+     "encrypt_decrypt": "^1.0.0",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.1.1",
+    "ytdl-core": "^0.28.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

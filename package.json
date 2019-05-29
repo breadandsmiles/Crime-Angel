@@ -1,6 +1,6 @@
 {
   "name": "crimedark",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "./src/bot.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "kuff",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "^11.5.0",
     "node-opus": "^0.2.7",
     "axios": "^0.18.0",
     "bufferutil": "^4.0.1",

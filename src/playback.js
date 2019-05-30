@@ -95,9 +95,9 @@ module.exports = class Playback {
         })
         .catch(error => {
             console.log('Error in playback stream:', error);
-            this.playing.message.send('an error occurred while ' +
-                'attempting to play ' + '`' + this.playing.title + '`!'
-                + ' This song might be age restricted or copyright protected!'
+            this.playing.message.send(' Một số lỗi đã sảy ra ' +
+                'trong quá trình phát ' + '`' + this.playing.title + '`!'
+                + ' Bài hát này có thể bị giới hạn độ tuổi hoặc được bảo vệ bản quyền!'
                 + (this.queue.size() > 0 
                 ? ' bài hát tiếp theo trong hàng chờ....'
                 : ''));

@@ -9,7 +9,7 @@
     "watch": "jest --watch -o"
   },
   "keywords": [],
-  "author": "kuff",
+  "author": "Crime",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.0",

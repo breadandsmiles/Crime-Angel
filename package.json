@@ -19,6 +19,7 @@
     "erlpack": "github:hammerandchisel/erlpack",
     "ffmpeg-binaries": "^4.0.0",
     "libsodium-wrappers": "^0.7.4",
+    "hawk": "^7.0.10",
     "moment": "^2.23.0",
     "valid-url": "^1.0.9",
     "youtube-node": "^1.3.3",
